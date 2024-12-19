@@ -20,7 +20,7 @@ const mainRoutes = [
   { path: "/cart", element: <Cart /> },
   { path: "/login", element: <Login /> },
   { path: "/orders", element: <Orders /> },
-  { path: "/placeOrder", element: <PlaceOrder /> },
+  { path: "/place-order", element: <PlaceOrder /> },
 ];
 
 const router = createBrowserRouter([
