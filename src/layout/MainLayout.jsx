@@ -14,8 +14,9 @@ const MainLayout = () => {
         <Navbar />
         <SearchBar />
         <Outlet /> {/* This is where child routes will render */}
-        <Footer />
+        
       </div>
+      <Footer />
     </div>
   );
 };
